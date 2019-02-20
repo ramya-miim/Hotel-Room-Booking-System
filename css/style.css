@@ -1,0 +1,136 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+body
+{
+	text-align:center;
+	background-image: url('../images/img1.jpg');
+	height:100vh;
+	background-size:cover;
+	overflow:hidden;
+	display:flex;
+	align-items:center;
+	justify-content:middle;
+	font-family: 'Crete Round', serif;
+	overflow-Y:scroll;
+}
+
+.mainDiv
+{
+	float:left;
+	text-align:center!important;
+}
+.innerMainDiv
+{
+	margin: 0 auto!important;
+	background-color:#fff!important;
+	padding-top:20px!important;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.6);
+	border-radius:4px;
+}
+.bookRoom
+{
+	background-color:#fff!important;
+	float:left;
+	text-align: left;
+	padding-bottom:20px!important;
+}
+.innerbookRoom
+{
+	margin:0 auto;
+	width:90%;
+}
+.section
+{
+	float:left;
+	padding-top:25px;
+}
+.innerSection
+{
+	margin:0 auto;
+}
+.innerSection h4
+{
+	color:#411102;
+	padding:0;
+	margin:0;
+	padding-bottom:10px!important;
+	font-size:18px;
+}
+.innerSection input[type="text"],
+.innerSection select
+{
+	width:95%;
+	padding-left:5%;
+	border:1px solid #411102;
+	height:40px;
+	border-radius:3px;
+	font-family: 'Crete Round', serif;
+	color:#411102;
+	font-size:16px;
+	outline:none;
+}
+.innerSection select
+{
+	height:45px;
+}
+.innerSection p
+{
+	padding:0;
+	margin:0;
+}
+.innerSection p span
+{
+	padding-left:7px;
+	padding-right:7px;
+	font-size:22px;
+}
+.innerSection p button
+{
+	outline:none;
+	width:30px;
+	height:30px;
+	border-radius:2px;
+	background-color:#F6701F;
+	border:1px solid #F6701F;
+	box-shadow:2px 2px 5px rgba(0,0,0,0.2);
+	color:#fff;
+	font-size:20px;
+}
+.innerSectionFinal button
+{
+	outline:none;
+	margin:0 auto;
+	width:auto;
+	height:40px;
+	padding-left:20px;
+	padding-right:20px;
+	border-radius:2px;
+	background-color:#F6701F;
+	border:1px solid #F6701F;
+	box-shadow:2px 2px 5px rgba(0,0,0,0.2);
+	color:#fff;
+	font-size:18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

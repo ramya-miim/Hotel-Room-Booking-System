@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css" >
+	<link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i" rel="stylesheet">
+</head>
+<body onLoad="loadRoomDetails()">
+	<p class="">
+
+	</p>
+	<div class="col-12 mainDiv">
+		<div class="col-6 innerMainDiv">
+			<div class="col-12 logo_section">
+				<img src="images/logo.png" width="auto" height="100px" />
+			</div>
+			<div class="col-12 bookRoom">
+				<div class="col-12 innerbookRoom">
+					<div class="col-6 section">
+						<div class="col-11 innerSection">
+							<h4>Room Number?</h4>
+							<select id="chooseRoom" onChange="chooseRoom()">
+								<option>Select</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-3 section">
+						<div class="col-12 innerSection">
+							<h4>Sharing</h4>
+							<input readonly type="text" value="0" id="roomSharing" placeholder=" Select Room Number" />
+						</div>
+					</div>
+					<div class="col-3 section">
+						<div class="col-12 innerSection">
+							<h4>Rent(Per Day)</h4>
+							<input readonly type="text" value="0" id="roomRent" placeholder=" Select Room Number" />
+						</div>
+					</div>
+					<div class="col-6 section" style="float: left; clear: left">
+						<div class="col-11 innerSection">
+							<div style="width:100%;float:left">
+								<h4>Adult's</h4>
+								<p>
+									<button onClick="addAdult()">+</button>&nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="text" id="adultTotal" value="0" style="width:50%"/>&nbsp;&nbsp;&nbsp;&nbsp;
+									<button onClick="deleteAdult()">-</button>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 section">
+						<div class="col-11 innerSection">
+							<div style="width:100%;float:left">
+								<h4>Child's</h4>
+								<p>
+									<button onClick="addChild()">+</button>&nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="text" id="childTotal" value="0" style="width:50%"/>&nbsp;&nbsp;&nbsp;&nbsp;
+									<button onClick="deleteChild()">-</button>
+								</p>
+							</div>
+						</div>
+					</div>
+					<input type="hidden" id="totalOccupy" />
+					<div class="col-6 section">
+						<div class="col-11 innerSection">
+							<h4>No. Of Days Staying</h4>
+							<input type="text" id="days" placeholder="Enter Days" onChange="generateRent()"/>
+							<button onClick="deleteChild()">Hello</button>
+						</div>
+					</div>
+					<div class="col-6 section">
+						<div class="col-11 innerSection">
+							<h4>Total Amount</h4>
+							<input type="text"  id="rentRate" placeholder=" Pay Amount" />
+						</div>
+					</div>
+					<div class="col-12 section">
+						<div class="col-11 innerSection innerSectionFinal" style="text-align:center!important">
+							<button onClick="bookHotelRoom()">Book the Room</button>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+<script src="bookingRoom.js"></script>
+</body>
+</html>

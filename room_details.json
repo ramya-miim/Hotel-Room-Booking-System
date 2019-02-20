@@ -1,0 +1,28 @@
+{
+  "hotel": [
+    {
+      "no" : 0,
+      "roomno" : 101,
+      "maxmember" : 10,
+      "rent" : 5500
+    },
+    {
+      "no" : 1,
+      "roomno" : 102,
+      "maxmember" : 2,
+      "rent" : 5500
+    },
+    {
+      "no" : 2,
+      "roomno" : 103,
+      "maxmember" : 3,
+      "rent" : 7000
+    },
+    {
+      "no" : 3,
+      "roomno" : 104,
+      "maxmember" : 3,
+      "rent" : 2500
+    }
+  ]
+}
